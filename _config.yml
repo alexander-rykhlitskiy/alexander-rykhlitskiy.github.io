@@ -69,7 +69,8 @@ topics:
 
   - name: Redis
     web_url: https://redis.io/
-    image_url: https://redis.io/images/redis-white.png
+    # image_url: https://redis.io/images/redis-white.png
+    image_url: https://img.icons8.com/color/452/redis.png
 
   - name: Docker
     web_url: https://github.com/topics/docker
