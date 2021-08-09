@@ -12,6 +12,14 @@
 
 {% if include.metadata %}
   <div class="f4 mb-6">
+    {% if site.user_data.resume_link %}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon note height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
+        <a href="{{ site.user_data.resume_link }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          My Resume
+        </a>
+      </div>
+    {% endif %}
     {% if user.name %}
       <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}

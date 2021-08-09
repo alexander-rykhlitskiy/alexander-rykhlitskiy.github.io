@@ -28,6 +28,9 @@ projects:
     projects:
     # - repo-name
 
+user_data:
+  resume_link: https://docs.google.com/document/d/1VCq49OYqIR6mrKbekKIBI7yXLx1fQFHmUf17rHxDkWI/edit
+
 social_media:
   # behance: your_username
   # dribbble: your_username
