@@ -17,16 +17,17 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: stars
+  # Sort logic is custom. See _includes/projects.html
+  # sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
   limit: 50
-  exclude:
-    archived: true
-    forks: true
-    projects:
-    # - repo-name
+  # exclude:
+  #   archived: true
+  #   forks: true
+  #   projects:
+  #   # - repo-name
 
 user_data:
   resume_link: https://docs.google.com/document/d/1VCq49OYqIR6mrKbekKIBI7yXLx1fQFHmUf17rHxDkWI/edit
